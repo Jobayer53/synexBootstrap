@@ -297,7 +297,7 @@ cursor: pointer;
 /* about us */
 .about-us{
 
-  height: 142vh;
+  /* height: 142vh; */
 }
 .leftsvg{
   width: 30rem;
@@ -718,6 +718,51 @@ cursor: pointer;
 
 
 /* responsive */
+
+@media (max-width: 320px) {
+  .pixels1 , .pixels2 , .pixels3 , .pixels4{
+    /* margin: 5rem 0px 0px 1rem; */
+    width: 38% !important;
+  }
+  .pixels2, .pixels4{
+    margin-left: 9rem !important;
+  }
+  .pixels3{
+    margin-top: 16rem !important;
+  }
+  .pixels4{
+    margin: 20rem 0 0 17.8rem;
+  }
+  .employee-card{
+    margin-top: 34rem !important;
+  }
+  .email-input-container {
+    width: 100% !important;
+  }
+ 
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .pixels1 , .pixels2 , .pixels3 , .pixels4{
+    /* margin: 5rem 0px 0px 1rem; */
+    width: 38% !important;
+  }
+  .pixels2, .pixels4{
+    margin-left: 50% !important;
+  }
+  .pixels3{
+    margin-top: 20rem !important;
+  }
+  .pixels4{
+    margin: 24rem 0 0 18rem;
+  }
+  .employee-card{
+    margin-top: 34rem !important;
+  }
+  .email-input-container {
+    width: 100% !important;
+  }
+}
+
 @media (max-width: 576px) {
   .leftsvg{
     width: 12rem;
@@ -732,8 +777,81 @@ cursor: pointer;
   }
   .experience-card{
     padding: 33px;
+    width: 100%;
   }
   .font-2rem{
     font-size: 1.5rem;
   }
+  .leftsvgend{
+    width: 12rem;
+    clip-path: none;
+    top: 93rem;
+  }
+  .rightsvgend{
+    width: 12rem;
+    clip-path: none;
+    top: 93rem;
+  }
+  .about-us-card{
+    margin-top: 2.4rem;
+    margin-bottom: 2rem;
+  }
+  .choose-us{
+    height: auto;
+
+  }
+  .choose-us-para{
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .choose-us-card{
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .employee{
+    height: auto;
+  }
+  .employee-card{
+    margin-top: 42rem;
+  }
+  .pixels1 , .pixels2 , .pixels3 , .pixels4{
+    /* margin: 5rem 0px 0px 1rem; */
+    width: 38%;
+  }
+  .pixels2, .pixels4{
+    margin-left: 50% !important;
+  }
+  .pixels3{
+    margin-top: 75%;
+  }
+  .pixels4{
+    margin-top: 90%;
+  }
+  .slider-container{
+    width: 100%;
+  }
+  .collaborate{
+    height: auto;
+    ;
+  }
+  .collaborate-btn{
+
+    /* margin-bottom: 2rem */
+  }
+  .collaborate-btn-2{
+    padding: 9px 32px;
+    margin-left: 0;
+    /* margin-bottom: 2rem */
+  }
+  .footer-title{
+    font-size: 30px;
+  }
+  .email-input-container {
+    width: 70%;
+  }
+  .flt-end{
+    float: none !important;
+  }
+  
 }
